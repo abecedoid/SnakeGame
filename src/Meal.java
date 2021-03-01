@@ -14,5 +14,12 @@ public class Meal {
         return false;
     }
 
+    public void setCoords(Coords c){
+        coords = c;
+    }
+
+    public Coords getCoords(){
+        return coords;
+    }
 
 }

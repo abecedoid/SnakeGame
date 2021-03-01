@@ -24,4 +24,9 @@ public class Window extends JFrame {
         System.out.println("Refreshing...");
     }
 
+    public void showGameOver(){
+        System.out.println("GAME OVER");
+        label.setText("GAME OVER!");
+    }
+
 }
